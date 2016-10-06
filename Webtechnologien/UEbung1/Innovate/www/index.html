@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Innovate</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+    <!-- see http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/quick-tip-dont-forget-the-viewport-meta-tag -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=no">
+    <style>
+        /* following two viewport lines are equivalent to meta viewport statement above, needed for Windows */
+        /* see http://www.quirksmode.org/blog/archives/2014/05/html5_dev_conf.html and http://dev.w3.org/csswg/css-device-adapt/ */
+        @-ms-viewport { width: 100vw ; min-zoom: 100% ; zoom: 100% ; }  @viewport { width: 100vw ; min-zoom: 100% zoom: 100% ; }
+        @-ms-viewport { user-zoom: fixed ; min-zoom: 100% ; }           @viewport { user-zoom: fixed ; min-zoom: 100% ; }
+    </style>
+
+    <!-- Uncomment the following scripts if you convert your "Standard HTML5" project into a "Cordova" project. -->
+    <!-- <script src="cordova.js"></script> -->          <!-- phantom library, needed for Cordova api calls, added during build -->
+    <!-- <script src="js/app.js"></script> -->           <!-- recommended location of your JavaScript code relative to other JS files -->
+    <!-- <script src="xdk/init-dev.js"></script> -->     <!-- normalizes device and document ready events, see README for details -->
+</head>
+
+<body>
+
+    <div id="Start">
+        <h3>Innovate</h3>
+        <ul>
+            <li><a href="#Start">Start</a></li>
+            <li><a href="#Project">Project</a></li>
+            <li><a href="#Team">Team</a></li>
+            <li><a href="#News">News</a></li>
+            <li><a href="#Findus">Find us</a></li>
+        </ul>
+    </div>
+    <div>
+        Welcome to <br>
+        <img src="images/Logo_mirror.png" alt="Innovate Logo"> <br>
+        <a href="#more">Read more</a>
+    </div>
+    <div id="Project">
+        <h3>Project Details</h3>
+        <img src="images/bsp_bild2.jpg" alt="Bsp1">
+        
+        <p><h5>Mission</h5>Lorem ipsum dolor sit amet, morbi arcu. Quis nostrum non condimentum diam, eget nulla lacus fermentum praesent tortor, blandit suspendisse turpis, orci ipsum enim lorem proin proin. Eget lectus sapien mattis, natoque sagittis, erat felis eget vehicula odio vel mollis, nulla dui arcu dui rhoncus pede donec. Auctor suscipit, id nec at a lobortis tellus, wisi amet nullam diam fringilla aliquam nulla. Gravida augue volutpat in morbi, vitae pellentesque lorem condimentum vitae vel, enim aenean nam egestas dictum lorem, tincidunt tristique vitae. Nibh magna.</p>
+        <img src="images/bsp_bild3.jpg" alt="BSP2">
+        <p><h4>Goals</h4>Lorem ipsum dolor sit amet, morbi arcu. Quis nostrum non condimentum diam, eget nulla lacus fermentum praesent tortor, blandit suspendisse turpis, orci ipsum enim lorem proin proin. Eget lectus sapien mattis, natoque sagittis, erat felis eget vehicula odio vel mollis, nulla dui arcu dui rhoncus pede donec. Auctor suscipit, id nec at a lobortis tellus, wisi amet nullam diam fringilla aliquam nulla. Gravida augue volutpat in morbi, vitae pellentesque lorem condimentum vitae vel, enim aenean nam egestas dictum lorem, tincidunt tristique vitae. Nibh magna.
+        Lacus etiam excepteur platea blandit tortor. Nullam in libero condimentum. Tempus placerat ut urna erat, rutrum eu nullam vulputate, adipiscing vulputate sodales, curabitur pulvinar, eros massa tincidunt vulputate amet blandit congue. Ut sed molestie elit est montes ultricies, bibendum torquent ante hendrerit. Non facilisi tempus mattis, non vitae repellat justo wisi, mi justo at nec sit fuga orci. Vulputate magnis suspendisse nunc, quisque nisl, ligula lectus rutrum quis, senectus odio varius commodo parturient consectetuer laoreet, perferendis ante quisque nullam ligula.
+        </p>
+    </div>
+    <div id="Team">
+        <h3>Innovate Team</h3>
+        <h4>DI. Team Member</h4>
+        <img src="images/team_member1.jpg">
+        <p>Tempus placerat ut urna erat, rutrum eu nullam vulputate, adipiscing vulputate sodales, curabitur pulvinar, eros massa tincidunt vulputate amet blandit congue.</p>
+        <h4>Dr. Team Member</h4>
+        <img src="images/team_member2.jpg">
+        <p>Ut sed molestie elit est montes ultricies, bibendum torquent ante hendrerit. Non facilisi tempus mattis, non vitae repellat justo wisi, mi justo at nec sit fuga orci. Vulputate magnis suspendisse nunc, quisque nisl, ligula lectus rutrum quis, senectus odio varius commodo parturient consectetuer laoreet, perferendis ante quisque nullam ligula.</p>
+        <h4>Mag. Team Member</h4>
+        <img src="images/team_member3.jpg">
+        <p>Lorem ipsum dolor sit amet, morbi arcu. Quis nostrum non condimentum diam, eget nulla lacus fermentum praesent tortor, blandit suspendisse turpis, orci ipsum enim lorem proin proin. Eget lectus sapien mattis, natoque sagittis, erat felis eget vehicula odio vel mollis, nulla dui arcu dui rhoncus pede donec. Auctor suscipit, id nec at a lobortis tellus, wisi amet nullam diam fringilla aliquam nulla.</p>
+    </div>
+
+    <div id="News">
+        <h3>News</h3>
+        <table>
+            <tr >
+                <td style="width:200px;text-align:center"><b>12.Dezember 2016</b></td>
+                <td>Quis nostrum non condimentum diam, eget nulla lacus fermentum praesent tortor, blandit suspendisse turpis, orci ipsum enim lorem proin proin.</td>
+            </tr>
+            <tr>
+                <td style="width:200px;text-align:center"><b>09.März 2015</b></td>
+                <td>Tempus placerat ut urna erat, rutrum eu nullam vulputate, adipiscing vulputate sodales, curabitur pulvinar, eros massa tincidunt vulputate amet blandit congue.</td>
+            </tr>
+            <tr>
+                <td style="width:200px;text-align:center"><b>28.Jänner 2015</b></td>
+                <td>Eget lectus sapien mattis, natoque sagittis, erat felis eget vehicula odio vel mollis, nulla dui arcu dui rhoncus pede donec. Auctor suscipit, id nec at a lobortis tellus, wisi amet nullam diam fringilla aliquam nulla.</td>
+            </tr>
+            <tr>
+                <td style="width:200px;text-align:center"><b>17.September 2014</b></td>
+                <td>Vulputate magnis suspendisse nunc, quisque nisl, ligula lectus rutrum quis, senectus odio varius commodo parturient consectetuer laoreet, perferendis ante quisque nullam ligula.</td>
+            </tr>
+        </table>
+    
+    </div>
+
+</body>
+</html>
